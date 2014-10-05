@@ -1,5 +1,6 @@
 @import "settings";
 @import "foundation";
+@import "foundation-icons";
 
 // Or selectively include components
 // @import
@@ -38,3 +39,57 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+$primary-color: #7f7f7f;
+
+.top-bar {
+    height: 36px;
+    padding: 0 25px;
+
+    color: #c8c8c8;
+    font-size: 0.8em;
+    line-height: 36px;
+
+    background-color: #f5f5f5;
+
+    span {
+        margin-right: 15px;
+
+        i {
+            margin-right: 5px;
+        }
+    }
+
+    .social-icons {
+        position: relative;
+        top: 3px;
+
+        font-size: 1.6em;
+
+        a {
+            color: #c8c8c8;
+        }
+    }
+}
+
+.page-header {
+    .main-content {
+        height: 120px;
+        padding: 0 25px;
+    }
+
+    .page-logo {
+        margin-top: 26px;
+    }
+}
+
+.primary-nav {
+    padding-top: 50px;
+
+    a {
+        color: $primary-color;
+    }
+
+    .search-bar {
+        padding-left: 40px;
+    }
+}
